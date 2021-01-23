@@ -12,8 +12,8 @@ namespace ProductivityTools.TrainingLog.Contract
         public DateTime Start { get; set; }
         public DateTime End { get; set; }
         public int Duration { get; set; }
-        public float Distance { get; set; }
-        public float Calories { get; set; }
-        public float AverageSpeed { get; set; }
+        public decimal Distance { get; set; }
+        public decimal Calories { get; set; }
+        public decimal AverageSpeed { get; set; }
     }
 }

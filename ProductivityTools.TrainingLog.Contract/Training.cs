@@ -4,6 +4,9 @@ namespace ProductivityTools.TrainingLog.Contract
 {
     public class Training
     {
+        public string Application { get; set; }
+        public string Account { get; set; }
+
         public int TrainingId { get; set; }
         public string Name { get; set; }
         public string Comment { get; set; }

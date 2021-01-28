@@ -24,6 +24,7 @@ namespace ProductivityTools.TrainingLog.Contract
         Swimming,
         TradmillRunning,
         WeightTraining,
+        PowerYoga,
         Yoga,
         Surfing,
         Walking,

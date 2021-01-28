@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ProductivityTools.TrainingLog.Contract
 {
@@ -7,6 +8,7 @@ namespace ProductivityTools.TrainingLog.Contract
         public string Application { get; set; }
         public string Account { get; set; }
 
+        public int TrainingId { get; set; }
         public string Name { get; set; }
         public string Comment { get; set; }
         public TrainingType Sport { get; set; }
@@ -17,5 +19,7 @@ namespace ProductivityTools.TrainingLog.Contract
         public decimal Distance { get; set; }
         public decimal Calories { get; set; }
         public decimal AverageSpeed { get; set; }
+        public List<byte[]> Pictures { get; set; }
+        public List<byte[]> Gpx { get; set; }
     }
 }

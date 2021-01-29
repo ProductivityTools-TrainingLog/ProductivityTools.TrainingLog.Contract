@@ -20,6 +20,6 @@ namespace ProductivityTools.TrainingLog.Contract
         public decimal Calories { get; set; }
         public decimal AverageSpeed { get; set; }
         public List<byte[]> Pictures { get; set; }
-        public List<byte[]> Gpx { get; set; }
+        public byte[] Gpx { get; set; }
     }
 }

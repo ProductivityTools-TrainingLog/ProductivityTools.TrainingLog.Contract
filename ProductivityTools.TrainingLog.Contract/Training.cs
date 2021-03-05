@@ -21,5 +21,6 @@ namespace ProductivityTools.TrainingLog.Contract
         public decimal AverageSpeed { get; set; }
         public List<byte[]> Pictures { get; set; }
         public byte[] Gpx { get; set; }
+        public Dictionary<string, string> ExternalIdList { get; set; }
     }
 }

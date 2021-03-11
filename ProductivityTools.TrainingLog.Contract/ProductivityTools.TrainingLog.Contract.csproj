@@ -7,4 +7,13 @@
     <PackageProjectUrl>https://github.com/pwujczyk/ProductivityTools.TrainingLog.Contract</PackageProjectUrl>
     <RepositoryUrl>https://github.com/pwujczyk/ProductivityTools.TrainingLog.Contract</RepositoryUrl>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>..\ProductivityTools.TrainingLog.Contract.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Vsxmd" Version="1.4.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
 </Project>

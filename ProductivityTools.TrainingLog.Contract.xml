@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductivityTools.TrainingLog.Contract</name>
+    </assembly>
+    <members>
+        <member name="P:ProductivityTools.TrainingLog.Contract.Training.Application">
+            <summary>
+            Application which is the source of data, it could be Endomondo, Sports-Tracker, or anything we want
+            </summary>
+        </member>
+        <member name="P:ProductivityTools.TrainingLog.Contract.Training.Account">
+            <summary>
+            Id of group of trainings, if you have two accounts, like yours and your partner you could add here id
+            </summary>
+        </member>
+        <member name="P:ProductivityTools.TrainingLog.Contract.Training.TrainingId">
+            <summary>
+            Id from the TrainingLog Application
+            </summary>
+        </member>
+        <member name="P:ProductivityTools.TrainingLog.Contract.Training.Name">
+            <summary>
+            Free text to describe sport, for example you could add some meaningfull information like Olympics 2020
+            </summary>
+        </member>
+        <member name="P:ProductivityTools.TrainingLog.Contract.Training.Comment">
+            <summary>
+            Additional field to describe sport, for example you could add person with who you had been training
+            </summary>
+        </member>
+        <member name="P:ProductivityTools.TrainingLog.Contract.Training.Sport">
+            <summary>
+            Type of sport
+            </summary>
+        </member>
+        <member name="P:ProductivityTools.TrainingLog.Contract.Training.Source">
+            <summary>
+            Every application like Endomondo has source of training and maily it is Manual or GPX
+            </summary>
+        </member>
+        <member name="P:ProductivityTools.TrainingLog.Contract.Training.Start">
+            <summary>
+            Start of the training
+            </summary>
+        </member>
+        <member name="P:ProductivityTools.TrainingLog.Contract.Training.End">
+            <summary>
+            End of the training
+            </summary>
+        </member>
+        <member name="P:ProductivityTools.TrainingLog.Contract.Training.Duration">
+            <summary>
+            Training duration in Seconds
+            </summary>
+        </member>
+        <member name="P:ProductivityTools.TrainingLog.Contract.Training.Distance">
+            <summary>
+            Distance in meters
+            </summary>
+        </member>
+        <member name="P:ProductivityTools.TrainingLog.Contract.Training.Calories">
+            <summary>
+            Calories burned
+            </summary>
+        </member>
+        <member name="P:ProductivityTools.TrainingLog.Contract.Training.AverageSpeed">
+            <summary>
+            Average speed in km/h
+            </summary>
+        </member>
+        <member name="P:ProductivityTools.TrainingLog.Contract.Training.ExternalIdList">
+            <summary>
+            Every training can have multiple external Ids, for example, we registered training in Endomondo, than we improtet it to Training Log and than exported to Sports-Tracker, than in external Id we will have two ids: Endomodno and Sports-Tracker
+            </summary>
+        </member>
+    </members>
+</doc>

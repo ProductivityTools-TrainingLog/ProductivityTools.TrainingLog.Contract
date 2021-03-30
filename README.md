@@ -23,4 +23,4 @@ It contains two objects:
 
 [AutoDocumentation](ProductivityTools.TrainingLog.Contract.md)
 
-![SolutionExplorer](Images\SolutionExplorer.png)
+![SolutionExplorer](Images/SolutionExplorer.png)
